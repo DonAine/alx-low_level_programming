@@ -11,8 +11,8 @@ int main(void)
 
 	while (num_16 < 10)
 	{
-		putchar((num_16 % 10) + '0');                                                                                   
-	       	num_16++;                  
+		putchar((num_16 % 10) + '0');                                                                        
+		num_16++;                  
 	}
 	while (alp_16 < 'g')
 	{

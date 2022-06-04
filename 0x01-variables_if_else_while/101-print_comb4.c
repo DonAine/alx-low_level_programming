@@ -16,6 +16,8 @@ int main(void)
 				putchar((o % 10) + '0');
 				putchar((p % 10) + '0');
 				putchar((q % 10) + '0');
+				if (o == 7 && p == 8 && q == 9)
+					continue;
 				putchar(',');
 				putchar(' ');
 			}

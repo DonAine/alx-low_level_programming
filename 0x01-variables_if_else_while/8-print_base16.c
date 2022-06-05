@@ -7,18 +7,18 @@
 int main(void)
 {
 	char alp_16 = 'a';
-	int num_16 = 0;
+	int n_16 = 0;
 
-	while (num_16 < 10)
+	while (n_16 < 10)
 	{
-		putchar((num_16 % 10) + '0');                                                                        
-		num_16++;                  
+		putchar((n_16 % 10) + '0');
+		n_16++;
 	}
 	while (alp_16 < 'g')
 	{
 		putchar(alp_16);
 		alp_16++;
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }

@@ -2,7 +2,7 @@
 /**
  * _islower - ascertains if a value is lowercase or not
  * Return: 1(True) and 0(False)
- * @c - argument for _islower computing
+ * @c: input variable for _islower computing
  */
 
 int _islower(int c)
@@ -10,5 +10,5 @@ int _islower(int c)
 	if (c <= 122 && c >= 97)
 		return (1);
 	else
-	       	return (0);
+		return (0);
 }

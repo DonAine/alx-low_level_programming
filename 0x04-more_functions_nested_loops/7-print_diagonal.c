@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * print_diagonal - prints diagonal using character \
- * @n: Number of times to print the \ character
+ *
+ * @n: input variable.
  */
 
 void print_diagonal(int n)

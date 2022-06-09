@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *
- *
+ * _isupper - identifies whether input is uppercase
+ * Return: 1 when true and 0 otherwise
  *
  */
 
